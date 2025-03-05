@@ -30,7 +30,7 @@ Poderemos utilizar essa aplicação fazendo uma chamada via docker. Ex:
 docker run <sua imagem docker> —url=http://google.com —requests=1000 —concurrency=10
 
 ## Execução
-1. Utilizar o comando abaixo para executar :
+1. Comando para execução, utilizando a imagem que publiquei no dockerhub:
 
 ```
 docker run ronaldo2385/stress-test:v1.0 --url=http://google.com --requests=1000 --concurrency=10
