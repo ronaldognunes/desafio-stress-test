@@ -29,7 +29,10 @@ Execução da aplicação:
 Poderemos utilizar essa aplicação fazendo uma chamada via docker. Ex:
 docker run <sua imagem docker> —url=http://google.com —requests=1000 —concurrency=10
 
-## Etapas para execução
-1. Criei uma imagem no docker hub executar o comando abaixo:
-   ``` docker run ronaldo2385/stress-test:v1.0 --url=http://googles.com --requests=1000 --concurrency=10 ´´´
+## Execução
+1. Utilizar o comando abaixo para executar :
+
+```
+docker run ronaldo2385/stress-test:v1.0 --url=http://google.com --requests=1000 --concurrency=10
+```
 
